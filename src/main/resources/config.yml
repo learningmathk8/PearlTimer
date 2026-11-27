@@ -1,0 +1,5 @@
+# PearlTimer Configuration
+cooldown-seconds: 10.0
+send-cooldown-message: true
+cooldown-message: "&cYou must wait &e{time}s &cbefore throwing another Ender Pearl!"
+ready-text: "&aReady!"

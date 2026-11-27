@@ -1,0 +1,17 @@
+name: PearlTimer
+version: 1.2.0
+main: com.determinationmc.pearltimer.PearlTimerPlugin
+api-version: '1.21'
+softdepend: [PlaceholderAPI]
+commands:
+  pearltimer:
+    description: Check your remaining Ender Pearl cooldown
+    usage: /pearltimer [config|reload]
+  pearltimerconfig:
+    description: Open the PearlTimer configuration GUI
+    usage: /pearltimerconfig
+    permission: pearltimer.admin
+permissions:
+  pearltimer.admin:
+    description: Access to /pearltimerconfig and /pearltimer reload
+    default: op
